@@ -308,3 +308,12 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #c2c3c5;
 }
+
+@media screen and (max-width: 600px) {
+  .terms{
+      display: inline;
+  }
+  .things-to-do{
+    margin-top: 20px;
+  }
+}
