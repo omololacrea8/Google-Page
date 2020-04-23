@@ -103,11 +103,11 @@ form {
 .img-class {
   height: 14px;
   padding-left: 15px;
+  
 }
 
 .icon {
   height: 19px;
-  padding-right: 20px;
   cursor: pointer;
 }
 
@@ -115,7 +115,10 @@ form {
   padding: 15px;
   opacity: 0.5;
 }
-
+.mic{
+  transform: translateX(-25px);
+  margin-left: -5pc;
+}
 .search-google input {
   background: none;
   border: none;
@@ -167,14 +170,13 @@ input[type="text"] {
 
 /* FOOTER */
 footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
+  margin:5.5pc 0pc 0pc 0pc;
+  height: 160px;
 }
 
 .country {
   height: 4rem;
-  padding-left: 3rem;
+  padding-left: 2rem;
   color: #6f6f6f;
   background-color: #f2f2f2;
   border-top: 1px solid #e4e4e4;
@@ -199,7 +201,13 @@ footer {
 .things-to-do a:not(:first-of-type) {
   margin-left: 2rem;
 }
+.things-to-do > div{
+  margin-left: -1rem;
+}
 
+.terms{
+  margin-top: 4pc;
+}
 .terms a:not(:last-of-type) {
   margin-right: 2rem;
 }
@@ -315,5 +323,8 @@ footer {
   }
   .things-to-do{
     margin-top: 20px;
+  }
+  .icon{
+    margin-left: -15px;
   }
 }
